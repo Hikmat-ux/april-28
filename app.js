@@ -1,5 +1,5 @@
 const fullName = prompt("Enter ur Name and surname:");
-const firstName = fullName.split("")[0];
+const firstName = fullName.split(" ")[0];
 console.log("Hi " + firstName + "!");
 
 
